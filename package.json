@@ -1,0 +1,29 @@
+{
+  "name": "yammer-rest-api-client",
+  "version": "0.2.7",
+  "author": "Oscar Renalias <oscar@renalias.net> (http://www.renalias.net)",
+  "description": "A node.js client for Yammer's RESTful API",
+  "main": "./lib/api.js",
+  "homepage": "https://github.com/oscarrenalias/yammer-rest-api-client-node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscarrenalias/yammer-rest-api-client-node.git"
+  },
+  "scripts": {
+    "test": "jasmine-node test/spec"
+  },
+  "license": "Apache Software License 2.0",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "winston": ">= 0.6.0"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-jshint": "0.9.x",
+    "nock": "0.27.x",
+    "jasmine-node": "1.14.x",
+    "grunt-jasmine-node-coverage": "0.1.x"
+  }
+}
