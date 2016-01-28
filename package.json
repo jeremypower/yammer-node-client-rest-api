@@ -1,13 +1,13 @@
 {
-  "name": "yammer-rest-api-client",
-  "version": "0.2.7",
-  "author": "Oscar Renalias <oscar@renalias.net> (http://www.renalias.net)",
+  "name": "yammer-node-client-rest-api",
+  "version": "0.1.0",
+  "author": "Jeremy Power <jeremy@deakin.edu.au>",
   "description": "A node.js client for Yammer's RESTful API",
   "main": "./lib/api.js",
-  "homepage": "https://github.com/oscarrenalias/yammer-rest-api-client-node",
+  "homepage": "https://github.com/jeremypower/yammer-node-client-rest-api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oscarrenalias/yammer-rest-api-client-node.git"
+    "url": "https://github.com/jeremypower/yammer-node-client-rest-api.git"
   },
   "scripts": {
     "test": "jasmine-node test/spec"
